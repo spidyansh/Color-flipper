@@ -9,7 +9,7 @@ btn.addEventListener("click", () => {
     m = "rgba(" + A + "," + B + "," + C + "," + D + ")"
     document.body.style.backgroundColor = m
 })
-
+//function to generate random number
 function getRandomNumberA() {
     return Math.floor(Math.random() * 255)
 
